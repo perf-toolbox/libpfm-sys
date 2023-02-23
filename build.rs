@@ -8,6 +8,7 @@ fn main() {
 
     let bindings = bindgen::Builder::default()
         .header("third_party/libpfm4/include/perfmon/pfmlib.h")
+        .derive_default(true)
         .generate()
         .expect("Unable to generate bindings");
 
