@@ -2,6 +2,9 @@
 name = "libpfm-sys"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Unsafe bindings for libpfm4"
+repository = "https://github.com/perf-toolbox/libpfm-sys.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
